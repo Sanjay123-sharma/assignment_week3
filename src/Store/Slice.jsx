@@ -26,7 +26,7 @@ export const Slice=createSlice({
         state.List=state.List.filter((task)=>task.id!==action.payload);    
     },
     completed:(state,action)=>{
-        let task=state.List.find((task)=>task.id==action.payload);
+        let task=state.List.find((task)=>task.id===action.payload);
         if(task){
             task.isCompleted=true
         }
