@@ -1,0 +1,75 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.first {
+  margin: 50px 600px 0 500px;
+}
+
+.head {
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  box-shadow: 10px 5px rgb(113, 113, 248);
+}
+
+.head-h {
+  margin: 10px;
+  text-align: center;
+  border: 1px solid blue;
+  background-image: linear-gradient(180deg, rgb(159, 159, 233), rgb(113, 113, 248));
+  color: white;
+}
+
+.head-f {
+  margin: 30px 10px 10px 10px;
+}
+
+#btn{
+  margin-left: 55px;
+  background-image: linear-gradient(90deg, rgb(159, 159, 233), rgb(113, 113, 248));
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2.5px solid rgb(113, 113, 248);
+}
+
+#input {
+  border-radius: 10px;
+  border: 2.5px solid rgb(113, 113, 248);
+  height: 30px;
+  width: 200px;
+}
+
+.bottom {
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  box-shadow: 10px 5px rgb(113, 113, 248);
+  display: list-item;
+}
+
+.item {
+  border: 2.5px solid rgb(113, 113, 248);
+  gap: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#btn3{
+color: white;
+  background-color: rgb(113, 113, 248);
+  border-radius: 10px;
+}
+#btn4 {
+  color: white;
+  background-color: rgb(113, 113, 248);
+  border-radius: 10px;
+  float: left;
+}
+
+.list {
+  display: flex;
+  overflow: auto;
+}
+
